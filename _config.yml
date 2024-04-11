@@ -12,17 +12,16 @@ open_graph:
   enable: true
   twitter_id: # for open_graph meta
 
-
 ######## Sidebar ########
 sidebar:
   logo:
-    avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    avatar: '[ http://5b0988e595225.cdn.sohucs.com/images/20181207/49b0d8721a254b0883ea4f6cb9863bba.jpeg](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-    # post: '[btn.blog](/)'
-    # wiki: '[btn.wiki](/wiki/)'
-    # friends: '[友链](/friends/)'
-    # about: '[关于](/about/)'
+    post: '[btn.blog](/)'
+    wiki: '[印记](/wiki/)'
+    friends: '[念想](/friends/)'
+    about: '[自我](/about/)'
   # Sidebar widgets
   widget_layout:
     index: [welcome, recent, ghuser_mini] # for home/wiki/categories/tags/archives/404 pages
@@ -57,17 +56,9 @@ sidebar:
     # welcome
     welcome:
       layout: markdown
-      title: Stellar 入门指南
+      title: 开始记录生活喽
       content: | # support markdown
-        欢迎使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题，下面是您的入门指南，祝您使用愉快！
-        <br>
-        **第一步**
-        创建 `blog/_config.stellar.yml` 文件，在此文件中填写需要自定义的主题配置。
-        <br>
-        **第二步**
-        创建 `blog/source/_data/widgets.yml` 文件，此文件中填写需要自定义的侧边栏组件，例如 `welcome` 组件。
-        <br>
-        如果有任何疑问，请先查阅[文档](https://xaoxuu.com/wiki/stellar/)，如果文档中没有提供，请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues/) 向开发中询问。
+        学习嘛,没什么丢人的
 
 
 
@@ -100,11 +91,11 @@ article:
 
 ######## Comments ########
 comments:
-  service: # beaudar, utterances, valine, twikoo, waline
-  # beaudar
+  service: beaudar # beaudar, utterances, valine, twikoo, waline
+  # 
   # https://beaudar.lipk.org/
   beaudar:
-    repo: xxx/xxx
+    repo: ZzX1998116/blog-comments
     issue-term: pathname
     issue-number:
     theme: preferred-color-scheme
@@ -154,8 +145,8 @@ comments:
     mathJax: false
     tagMeta: [博主, 小伙伴, 访客] # 标签要显示的文字,默认'博主,小伙伴,访客'
     metaPlaceholder:
-      nick: "昵称/QQ号(必填)"
-      mail: "邮箱（必填，完全保密）"
+      nick: "2913281481"
+      mail: "17638519846@163.com"
       link: "网址(https://)"
     master: #md5加密后的博主邮箱
       - 6783037F2DF30EAB99F9FC256157D875
@@ -238,12 +229,12 @@ footer:
     #   - '[开源库](/)'
     # '社交':
     #   - '[友链](/)'
-    #   - '[留言板](/)'
+      # - '[留言板](/contact)'
     # '更多':
     #   - '[关于本站](/)'
     #   - '[GitHub](/)'
   content: | # 支持 Markdown 格式
-    本站由 [@anonymity](/) 使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主题创建。
+    本站由 [Z&M](/about) 使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主题创建。
     本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
   # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
 
