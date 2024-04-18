@@ -22,6 +22,7 @@ sidebar:
     wiki: '[印记](/wiki/)'
     friends: '[念想](/friends/)'
     about: '[自我](/about/)'
+    htmls: '[那些静静流过的时光](/htmls/)'
   # Sidebar widgets
   widget_layout:
     index: [welcome, recent, ghuser_mini] # for home/wiki/categories/tags/archives/404 pages
